@@ -8,41 +8,70 @@
     <h1>DCC121 Tabelas</h1>
 
     <table>
-      <tr>
-            <thead>
-              <th>Nome</th>
-              <th>Altura</th>
-              <th>Peso</th>
-              <th>Idade</th>
-            </thead>
-      </tr>
-      <tr>
-          <tbody>
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Altura</th>
+          <th>Peso</th>
+          <th>Idade</th>
+        </tr>
+      </thead>
 
-              <td>isso</td>
-              <td>1,70</td>
-              <td>62</td>
-              <td>19</td>
-            </tr>
-            <tr>
-                <td>é</td>
-                <td>1,93</td>
-                <td>83</td>
-                <td>59</td>
-            </tr>
-            <tr>
-                <td>legal</td>
-                <td>1,56</td>
-                <td>55</td>
-                <td>23</td>
-            </tbody>
-            <tfoot>
-                <th>Média</th>
-                <td>1,65</td>
-                <td>98</td>
-                <td>23</td>
-            </tfoot>
-      </tr>
+      <tbody>
+        <tr>
+          <td>isso</td>
+          <td>1,70</td>
+          <td>62</td>
+          <td>19</td>
+        </tr>
+        <tr>
+          <td>é</td>
+          <td>1,93</td>
+          <td>83</td>
+          <td>59</td>
+        </tr>
+        <tr>
+          <td>legal</td>
+          <td>1,56</td>
+          <td>55</td>
+          <td>23</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <th>Média</th>
+          <td>1,65</td>
+          <td>98</td>
+          <td>23</td>
+        </tr>
+      </tfoot>
     </table>
   </body>
+
+  <h1>Outro exemplo</h1>
+  <table border="1">
+    <tbody>
+      <tr>
+        <td colspan="2">1</td>
+        <td>3</td>
+        <td rowspan="3">4</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td colspan="3" rowspan="2">6</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>15</td>
+      </tr>
+      <tr>
+        <td>16</td>
+        <td>17</td>
+        <td>18</td>
+        <td>19</td>
+        <td>20</td>
+      </tr>
+    </tbody>
+  </table>
 </html>
